@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='style.css'>
+  <title>Google</title>
+</head>
+<body>
+  <div class='wrapper'>
+    <img class='logo' src='./img/google_logo.png' alt='Logo'>
+    <form class='search-form'>
+      <div class="search-form__input_wrapper">
+        <img class='search-form__search' src='./img/search_icon.svg' alt='search'>
+        <input class='search-form__input' type='text'>
+        <img class='search-form__keyboard' src='./img/keyboard.png' alt='keyboard'>
+        <img class='search-form__micro' src='./img/micro.svg' alt='micro'>
+      </div>
+      <div class='buttons'>
+        <button class="search-form__btn_submit" type='submit'>Пошук Google</button>
+        <button class="search-form__btn_random" type='button' onClick='changeLogo()'>Мені пощастить</button>
+      </div>
+    </form>
+    <p class='lang'> Мова Google:
+      <a class='lang__option' href='#'>English</a>
+      <a class='lang__option' href='#'>русский</a>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
